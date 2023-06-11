@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SafetyMessageLog xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="Ade.Safety.Utilities.MessageLog/v1">
+  <HashAlgorithmName>SHA256</HashAlgorithmName>
+  <Signature>EJ/9ujuIynoSiq4qUk+7L1HnfGM9/Di6k4HwzmAviPA=</Signature>
+  <Entries />
+</SafetyMessageLog>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<content>
+  <folder name="PROJECT">
+    <file name="Safety.area" id="PROJECT~Safety~0000.area" />
+    <folder name="Logs">
+      <file name="SafetyMessageLog.xml" id="Logs~SafetyMessageLo~0000.xml" />
+    </folder>
+    <folder name="Inventories">
+      <file name="SafetyInventory.xml" id="Inventori~SafetyInve~0000.xml" />
+    </folder>
+    <folder name="Logical Elements" />
+  </folder>
+</content>
