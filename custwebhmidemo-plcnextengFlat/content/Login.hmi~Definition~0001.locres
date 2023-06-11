@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ResourcesDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <NextResourceID>109</NextResourceID>
+  <Languages ID="0" Name="Default" />
+  <Resources ID="100" Name="useridLabel.Text">
+    <Values LanguageID="0" LocalValue="User" />
+  </Resources>
+  <Resources ID="101" Name="passwordLabel.Text">
+    <Values LanguageID="0" LocalValue="Password" />
+  </Resources>
+  <Resources ID="102" Name="username.Text">
+    <Values LanguageID="0" LocalValue="" />
+  </Resources>
+  <Resources ID="103" Name="login.Text">
+    <Values LanguageID="0" LocalValue="Log In" />
+  </Resources>
+  <Resources ID="104" Name="cancel.Text">
+    <Values LanguageID="0" LocalValue="Cancel" />
+  </Resources>
+  <Resources ID="105" Name="password.Text">
+    <Values LanguageID="0" LocalValue="" />
+  </Resources>
+  <Resources ID="106" Name="Text1.Text">
+    <Values LanguageID="0" LocalValue="Text" />
+  </Resources>
+  <Resources ID="107" Name="SystemUseNotificationDE.Text">
+    <Values LanguageID="0" LocalValue="Dieses Gerät ist nur für den autorisierten \nGebrauch!\n\nDieses Gerät (Industrie Steuerung) darf nur \nvon autorisierten Benutzern verwendet \nwerden. \n\nPersonen, die dieses Gerät verwenden, und \nalle Benutzeraktionen auf diesem Gerät \nkönnen aufgezeichnet, kopiert, und auditiert \nwerden. \n\nDie unautorisierte Verwendung ist nicht \nerlaubt. \n\nDurch die weitere Verwendung dieses \nGeräts erklären Sie sich mit diesen \nBedingungen einverstanden." />
+  </Resources>
+  <Resources ID="108" Name="SystemUseNotificationEN.Text">
+    <Values LanguageID="0" LocalValue="This device is for authorized use only!\n\nThis device (Industrial Control System) is for \nthe use of authorized users only. \n\nIndividuals using this device and all user \nactions on this device may be recorded, \ncopied and audited. \n\nUnauthorized use, without authority, or in \nexcess of authority is prohibited. \n\nBy continuing to use this device you indicate \nyour awareness of and consent to these \nterms of use." />
+  </Resources>
+</ResourcesDocument>

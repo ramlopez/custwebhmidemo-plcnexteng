@@ -35,7 +35,20 @@
           <folder name="Application">
             <file name="Variables.hmivar" id="Applicatio~Variables~0000.hmivar" />
             <file name="Navigation.hminav" id="Applicati~Navigation~0000.hminav" />
+            <folder name="Home.hmi">
+              <file name="Variables.hmivar" id="Home.hmi~Variables~0000.hmivar" />
+              <file name="Definition.hmipagedef" id="Home.hmi~Definition~0000.hmipagedef" />
+              <file name="Parameters.hmiparams" id="Home.hmi~Parameters~0000.hmiparams" />
+              <file name="Definition.hmipagedef.locres" id="Home.hmi~Definition.~0000.locres" />
+            </folder>
+            <folder name="Login.hmi">
+              <file name="Variables.hmivar" id="Login.hmi~Variables~0000.hmivar" />
+              <file name="Definition.hmipagedef" id="Login.hmi~Definition~0000.hmipagedef" />
+              <file name="Parameters.hmiparams" id="Login.hmi~Parameters~0000.hmiparams" />
+              <file name="Definition.hmipagedef.locres" id="Login.hmi~Definition~0001.locres" />
+            </folder>
           </folder>
+          <file name="HmiConfiguration.xml" id="HMI_Serve~HmiConfigu~0000.xml" />
         </folder>
         <folder name="PN_Master">
           <file name="Arp.Io.Pn.libmeta" id="PN_Master~Arp.Io.Pn~0000.libmeta" />

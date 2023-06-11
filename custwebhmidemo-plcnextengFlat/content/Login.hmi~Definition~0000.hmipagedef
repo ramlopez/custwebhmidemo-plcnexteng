@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HmiPage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Login" BorderWidth="0">
+  <Layers>
+    <Layer>
+      <Objects>
+        <HmiObject xsi:type="HmiText" Rotation="0" ID="useridLabel" IsTabSelectable="false" TabOrder="0" LineColor="#FFCCD0D2" LineWidth="0" Text="User" FontFamily="Arial" FontSize="18" FontStyle="normal" FontWeight="400" FontColor="#FF3E3D40" IsTextWrapping="false" TextDirection="LeftToRight" HorizontalTextAlignment="Left" GuiStyle="Flat" TextMarginTop="0" TextMarginBottom="0" TextMarginLeft="0" TextMarginRight="0" TextWrapping="WrapWithOverflow">
+          <Origin>
+            <X>340</X>
+            <Y>20</Y>
+          </Origin>
+          <Location>
+            <X>340</X>
+            <Y>20</Y>
+          </Location>
+          <TransformCenter>
+            <X>0</X>
+            <Y>0</Y>
+          </TransformCenter>
+          <EnableSecurityScope>Always</EnableSecurityScope>
+          <EnableSecurityScopeOperator>Equal</EnableSecurityScopeOperator>
+          <EnableSecurityScopeLevel>0</EnableSecurityScopeLevel>
+          <VisibleSecurityScope>Always</VisibleSecurityScope>
+          <VisibleSecurityScopeOperator>Equal</VisibleSecurityScopeOperator>
+          <VisibleSecurityScopeLevel>0</VisibleSecurityScopeLevel>
+          <Fill xsi:type="SolidFill" Color="#00FFFFFF" />
+          <DashStyle>
+            <Offset>0</Offset>
+            <Dashes />
+          </DashStyle>
+          <Size>
+            <Width>140</Width>
+            <Height>40</Height>
+          </Size>
+        </HmiObject>
+        <HmiObject xsi:type="HmiText" Rotation="0" ID="passwordLabel" IsTabSelectable="false" TabOrder="0" LineColor="#FFCCD0D2" LineWidth="0" Text="Password" FontFamily="Arial" FontSize="18" FontStyle="normal" FontWeight="400" FontColor="#FF3E3D40" IsTextWrapping="false" TextDirection="LeftToRight" HorizontalTextAlignment="Left" GuiStyle="Flat" TextMarginTop="0" TextMarginBottom="0" TextMarginLeft="0" TextMarginRight="0" TextWrapping="WrapWithOverflow">
+          <Origin>
+            <X>340</X>
+            <Y>120</Y>
+          </Origin>
+          <Location>
+            <X>340</X>
+            <Y>120</Y>
+          </Location>
+          <TransformCenter>
+            <X>0</X>
+            <Y>0</Y>
+          </TransformCenter>
+          <EnableSecurityScope>Always</EnableSecurityScope>
+          <EnableSecurityScopeOperator>Equal</EnableSecurityScopeOperator>
+          <EnableSecurityScopeLevel>0</EnableSecurityScopeLevel>
+          <VisibleSecurityScope>Always</VisibleSecurityScope>
+          <VisibleSecurityScopeOperator>Equal</VisibleSecurityScopeOperator>
+          <VisibleSecurityScopeLevel>0</VisibleSecurityScopeLevel>
+          <Fill xsi:type="SolidFill" Color="#00FFFFFF" />
+          <DashStyle>
+            <Offset>0</Offset>
+            <Dashes />
+          </DashStyle>
+          <Size>
+            <Width>280</Width>
+            <Height>40</Height>
+          </Size>
+        </HmiObject>
+        <HmiObject xsi:type="TextInput" Rotation="0" ID="username" IsTabSelectable="true" TabOrder="1" LineColor="#FFCCD0D2" LineWidth="1" Text="" FontFamily="Arial" FontSize="18" FontStyle="normal" FontWeight="400" FontColor="#FF3E3D40" IsTextWrapping="false" TextDirection="LeftToRight" HorizontalTextAlignment="Left" GuiStyle="Flat" TextMarginTop="0" TextMarginBottom="0" TextMarginLeft="0" TextMarginRight="0">
+          <Origin>
+            <X>340</X>
+            <Y>60</Y>
+          </Origin>
+          <Location>
+            <X>340</X>
+            <Y>60</Y>
+          </Location>
+          <TransformCenter>
+            <X>0</X>
+            <Y>0</Y>
+          </TransformCenter>
+          <EnableSecurityScope>Always</EnableSecurityScope>
+          <EnableSecurityScopeOperator>Equal</EnableSecurityScopeOperator>
+          <EnableSecurityScopeLevel>0</EnableSecurityScopeLevel>
+          <VisibleSecurityScope>Always</VisibleSecurityScope>
+          <VisibleSecurityScopeOperator>Equal</VisibleSecurityScopeOperator>
+          <VisibleSecurityScopeLevel>0</VisibleSecurityScopeLevel>
+          <Fill xsi:type="SolidFill" Color="#FFFFFFFF" />
+          <DashStyle>
+            <Offset>0</Offset>
+            <Dashes />
+          </DashStyle>
+          <Size>
+            <Width>280</Width>
+            <Height>40</Height>
+          </Size>
+          <PasswordInputType>false</PasswordInputType>
+        </HmiObject>
+        <HmiObject xsi:type="Button" Rotation="0" ID="login" IsTabSelectable="true" TabOrder="3" NextId="1" LineColor="#FFCCD0D2" LineWidth="1" Text="Log In" FontFamily="Arial" FontSize="18" FontStyle="normal" FontWeight="400" FontColor="#FFECEDED" IsTextWrapping="false" TextDirection="LeftToRight" HorizontalTextAlignment="Center" GuiStyle="Flat" TextMarginTop="0" TextMarginBottom="0" TextMarginLeft="0" TextMarginRight="0" IsLatching="false" ImpulseTime="0" ImagePlacement="Left" ImageAreaWidthUnits="Percent" ImageAreaHeightUnits="Percent" Margin="0" ImageWhenDownId="00000000-0000-0000-0000-000000000000" ImageScaling="Fill">
+          <Origin>
+            <X>340</X>
+            <Y>300</Y>
+          </Origin>
+          <Location>
+            <X>340</X>
+            <Y>300</Y>
+          </Location>
+          <TransformCenter>
+            <X>0</X>
+            <Y>0</Y>
+          </TransformCenter>
+          <Action xsi:type="LogInAction" Gesture="Click" ID="A0" />
+          <EnableSecurityScope>Always</EnableSecurityScope>
+          <EnableSecurityScopeOperator>Equal</EnableSecurityScopeOperator>
+          <EnableSecurityScopeLevel>0</EnableSecurityScopeLevel>
+          <VisibleSecurityScope>Always</VisibleSecurityScope>
+          <VisibleSecurityScopeOperator>Equal</VisibleSecurityScopeOperator>
+          <VisibleSecurityScopeLevel>0</VisibleSecurityScopeLevel>
+          <Fill xsi:type="SolidFill" Color="#FF0098A1" />
+          <DashStyle>
+            <Offset>0</Offset>
+            <Dashes />
+          </DashStyle>
+          <Size>
+            <Width>120</Width>
+            <Height>40</Height>
+          </Size>
+          <FillWhenDown xsi:type="SolidFill" Color="#FF8ACCD1" />
+          <ImageArea>
+            <Width>50</Width>
+            <Height>50</Height>
+          </ImageArea>
+          <CornerRadii>
+            <Width>4</Width>
+            <Height>4</Height>
+          </CornerRadii>
+        </HmiObject>
+        <HmiObject xsi:type="Button" Rotation="0" ID="cancel" IsTabSelectable="true" TabOrder="4" NextId="1" LineColor="#FFCCD0D2" LineWidth="1" Text="Cancel" FontFamily="Arial" FontSize="18" FontStyle="normal" FontWeight="400" FontColor="#FF3E3D40" IsTextWrapping="false" TextDirection="LeftToRight" HorizontalTextAlignment="Center" GuiStyle="Flat" TextMarginTop="0" TextMarginBottom="0" TextMarginLeft="0" TextMarginRight="0" IsLatching="false" ImpulseTime="0" ImagePlacement="Left" ImageAreaWidthUnits="Percent" ImageAreaHeightUnits="Percent" Margin="0" ImageWhenDownId="00000000-0000-0000-0000-000000000000" ImageScaling="Fill">
+          <Origin>
+            <X>500</X>
+            <Y>300</Y>
+          </Origin>
+          <Location>
+            <X>500</X>
+            <Y>300</Y>
+          </Location>
+          <TransformCenter>
+            <X>0</X>
+            <Y>0</Y>
+          </TransformCenter>
+          <Action xsi:type="CloseDialogAction" Gesture="Click" ID="A0" SourceType="Constant" />
+          <EnableSecurityScope>Always</EnableSecurityScope>
+          <EnableSecurityScopeOperator>Equal</EnableSecurityScopeOperator>
+          <EnableSecurityScopeLevel>0</EnableSecurityScopeLevel>
+          <VisibleSecurityScope>Always</VisibleSecurityScope>
+          <VisibleSecurityScopeOperator>Equal</VisibleSecurityScopeOperator>
+          <VisibleSecurityScopeLevel>0</VisibleSecurityScopeLevel>
+          <Fill xsi:type="SolidFill" Color="#FFECEDED" />
+          <DashStyle>
+            <Offset>0</Offset>
+            <Dashes />
+          </DashStyle>
+          <Size>
+            <Width>120</Width>
+            <Height>40</Height>
+          </Size>
+          <FillWhenDown xsi:type="SolidFill" Color="#FF8ACCD1" />
+          <ImageArea>
+            <Width>50</Width>
+            <Height>50</Height>
+          </ImageArea>
+          <CornerRadii>
+            <Width>4</Width>
+            <Height>4</Height>
+          </CornerRadii>
+        </HmiObject>
+        <HmiObject xsi:type="TextInput" Rotation="0" ID="password" IsTabSelectable="true" TabOrder="2" LineColor="#FFCCD0D2" LineWidth="1" Text="" FontFamily="Arial" FontSize="18" FontStyle="normal" FontWeight="400" FontColor="#FF3E3D40" IsTextWrapping="false" TextDirection="LeftToRight" HorizontalTextAlignment="Left" GuiStyle="Flat" TextMarginTop="0" TextMarginBottom="0" TextMarginLeft="0" TextMarginRight="0">
+          <Origin>
+            <X>340</X>
+            <Y>160</Y>
+          </Origin>
+          <Location>
+            <X>340</X>
+            <Y>160</Y>
+          </Location>
+          <TransformCenter>
+            <X>0</X>
+            <Y>0</Y>
+          </TransformCenter>
+          <EnableSecurityScope>Always</EnableSecurityScope>
+          <EnableSecurityScopeOperator>Equal</EnableSecurityScopeOperator>
+          <EnableSecurityScopeLevel>0</EnableSecurityScopeLevel>
+          <VisibleSecurityScope>Always</VisibleSecurityScope>
+          <VisibleSecurityScopeOperator>Equal</VisibleSecurityScopeOperator>
+          <VisibleSecurityScopeLevel>0</VisibleSecurityScopeLevel>
+          <Fill xsi:type="SolidFill" Color="#FFFFFFFF" />
+          <DashStyle>
+            <Offset>0</Offset>
+            <Dashes />
+          </DashStyle>
+          <Size>
+            <Width>280</Width>
+            <Height>40</Height>
+          </Size>
+          <PasswordInputType>true</PasswordInputType>
+        </HmiObject>
+        <HmiObject xsi:type="HmiText" Rotation="0" ID="Text1" IsTabSelectable="true" TabOrder="0" LineColor="#FFCCD0D2" LineWidth="0" Text="Text" FontFamily="Arial" FontSize="18" FontStyle="normal" FontWeight="400" FontColor="#FFFF0000" IsTextWrapping="false" TextDirection="LeftToRight" HorizontalTextAlignment="Left" GuiStyle="Flat" TextMarginTop="0" TextMarginBottom="0" TextMarginLeft="0" TextMarginRight="0" TextWrapping="WrapWithOverflow">
+          <Origin>
+            <X>340</X>
+            <Y>200</Y>
+          </Origin>
+          <Location>
+            <X>340</X>
+            <Y>200</Y>
+          </Location>
+          <TransformCenter>
+            <X>0</X>
+            <Y>0</Y>
+          </TransformCenter>
+          <Dynamic xsi:type="TextDynamic" TargetProperty="Text">
+            <VariableInstance>
+              <PageVariableId>d74189e2-75dc-46f9-9198-d5ec0004e212</PageVariableId>
+            </VariableInstance>
+            <Expression xsi:type="SimpleSTExpression">
+              <ExpressionLine>loginErrorString</ExpressionLine>
+            </Expression>
+          </Dynamic>
+          <Dynamic xsi:type="VisibilityDynamic" ChangeWhen="True">
+            <Expression xsi:type="SimpleSTExpression">
+              <ExpressionLine>loginStatusCode = 0</ExpressionLine>
+            </Expression>
+          </Dynamic>
+          <EnableSecurityScope>Always</EnableSecurityScope>
+          <EnableSecurityScopeOperator>Equal</EnableSecurityScopeOperator>
+          <EnableSecurityScopeLevel>0</EnableSecurityScopeLevel>
+          <VisibleSecurityScope>Always</VisibleSecurityScope>
+          <VisibleSecurityScopeOperator>Equal</VisibleSecurityScopeOperator>
+          <VisibleSecurityScopeLevel>0</VisibleSecurityScopeLevel>
+          <Fill xsi:type="SolidFill" Color="#00FFFFFF" />
+          <DashStyle>
+            <Offset>0</Offset>
+            <Dashes />
+          </DashStyle>
+          <Size>
+            <Width>280</Width>
+            <Height>40</Height>
+          </Size>
+        </HmiObject>
+        <HmiObject xsi:type="HmiText" Rotation="0" ID="SystemUseNotificationDE" IsTabSelectable="false" TabOrder="0" LineColor="#FFCCD0D2" LineWidth="0" Text="Dieses Gerät ist nur für den autorisierten \nGebrauch!\n\nDieses Gerät (Industrie Steuerung) darf nur \nvon autorisierten Benutzern verwendet \nwerden. \n\nPersonen, die dieses Gerät verwenden, und \nalle Benutzeraktionen auf diesem Gerät \nkönnen aufgezeichnet, kopiert, und auditiert \nwerden. \n\nDie unautorisierte Verwendung ist nicht \nerlaubt. \n\nDurch die weitere Verwendung dieses \nGeräts erklären Sie sich mit diesen \nBedingungen einverstanden." FontFamily="Arial" FontSize="14" FontStyle="normal" FontWeight="400" FontColor="#FF3E3D40" IsTextWrapping="false" TextDirection="LeftToRight" HorizontalTextAlignment="Left" GuiStyle="Flat" TextMarginTop="0" TextMarginBottom="0" TextMarginLeft="0" TextMarginRight="0" TextWrapping="WrapWithOverflow">
+          <Origin>
+            <X>20</X>
+            <Y>20</Y>
+          </Origin>
+          <Location>
+            <X>20</X>
+            <Y>20</Y>
+          </Location>
+          <TransformCenter>
+            <X>0</X>
+            <Y>0</Y>
+          </TransformCenter>
+          <EnableSecurityScope>Always</EnableSecurityScope>
+          <EnableSecurityScopeOperator>Equal</EnableSecurityScopeOperator>
+          <EnableSecurityScopeLevel>0</EnableSecurityScopeLevel>
+          <VisibleSecurityScope>Always</VisibleSecurityScope>
+          <VisibleSecurityScopeOperator>Equal</VisibleSecurityScopeOperator>
+          <VisibleSecurityScopeLevel>0</VisibleSecurityScopeLevel>
+          <Fill xsi:type="SolidFill" Color="#FFFFFFFF" />
+          <DashStyle>
+            <Offset>0</Offset>
+            <Dashes />
+          </DashStyle>
+          <Size>
+            <Width>280</Width>
+            <Height>300</Height>
+          </Size>
+        </HmiObject>
+        <HmiObject xsi:type="HmiText" Rotation="0" ID="SystemUseNotificationEN" IsTabSelectable="false" TabOrder="0" LineColor="#FFCCD0D2" LineWidth="0" Text="This device is for authorized use only!\n\nThis device (Industrial Control System) is for \nthe use of authorized users only. \n\nIndividuals using this device and all user \nactions on this device may be recorded, \ncopied and audited. \n\nUnauthorized use, without authority, or in \nexcess of authority is prohibited. \n\nBy continuing to use this device you indicate \nyour awareness of and consent to these \nterms of use." FontFamily="Arial" FontSize="14" FontStyle="normal" FontWeight="400" FontColor="#FF3E3D40" IsTextWrapping="false" TextDirection="LeftToRight" HorizontalTextAlignment="Left" GuiStyle="Flat" TextMarginTop="0" TextMarginBottom="0" TextMarginLeft="0" TextMarginRight="0" TextWrapping="WrapWithOverflow">
+          <Origin>
+            <X>20</X>
+            <Y>20</Y>
+          </Origin>
+          <Location>
+            <X>20</X>
+            <Y>20</Y>
+          </Location>
+          <TransformCenter>
+            <X>0</X>
+            <Y>0</Y>
+          </TransformCenter>
+          <EnableSecurityScope>Always</EnableSecurityScope>
+          <EnableSecurityScopeOperator>Equal</EnableSecurityScopeOperator>
+          <EnableSecurityScopeLevel>0</EnableSecurityScopeLevel>
+          <VisibleSecurityScope>Always</VisibleSecurityScope>
+          <VisibleSecurityScopeOperator>Equal</VisibleSecurityScopeOperator>
+          <VisibleSecurityScopeLevel>0</VisibleSecurityScopeLevel>
+          <Fill xsi:type="SolidFill" Color="#FFFFFFFF" />
+          <DashStyle>
+            <Offset>0</Offset>
+            <Dashes />
+          </DashStyle>
+          <Size>
+            <Width>280</Width>
+            <Height>300</Height>
+          </Size>
+        </HmiObject>
+      </Objects>
+    </Layer>
+  </Layers>
+  <Size>
+    <Width>640</Width>
+    <Height>360</Height>
+  </Size>
+  <MarginColorString>#FF000000</MarginColorString>
+  <AvailableSecurityScope>Always</AvailableSecurityScope>
+  <AvailableSecurityScopeOperator>Equal</AvailableSecurityScopeOperator>
+  <AvailableSecurityScopeLevel>0</AvailableSecurityScopeLevel>
+  <Fill xsi:type="SolidFill" Color="#FFFFFFFF" />
+</HmiPage>

@@ -453,6 +453,16 @@
          <Visible>False</Visible>
          <ParentIndex>2</ParentIndex>
       </HmiVariables>
+      <HmiVariables Include="Hardware\CFG_5168E02A2B0348C4B4D848A3BA195E9D\HMI_Server\Application\Home.hmi\Variables.hmivar">
+         <Id>07aa27a5-2bdf-4e0b-8fe4-a4b063a82f04</Id>
+         <Visible>False</Visible>
+         <ParentIndex>3</ParentIndex>
+      </HmiVariables>
+      <HmiVariables Include="Hardware\CFG_5168E02A2B0348C4B4D848A3BA195E9D\HMI_Server\Application\Login.hmi\Variables.hmivar">
+         <Id>5ea608a0-3f5f-48dd-b7bf-29c3604a5d08</Id>
+         <Visible>False</Visible>
+         <ParentIndex>3</ParentIndex>
+      </HmiVariables>
    </ItemGroup>
    <ItemGroup>
       <HmiNavigation Include="Hardware\CFG_5168E02A2B0348C4B4D848A3BA195E9D\HMI_Server\Application\Navigation.hminav">
@@ -525,6 +535,16 @@
          <DisplayName>User</DisplayName>
          <ParentIndex>7</ParentIndex>
       </LocalResources>
+      <LocalResources Include="Hardware\CFG_5168E02A2B0348C4B4D848A3BA195E9D\HMI_Server\Application\Home.hmi\Definition.hmipagedef.locres">
+         <Id>f21700a0-39da-4b94-b789-1e9f39c4c15b</Id>
+         <Visible>False</Visible>
+         <ParentIndex>2</ParentIndex>
+      </LocalResources>
+      <LocalResources Include="Hardware\CFG_5168E02A2B0348C4B4D848A3BA195E9D\HMI_Server\Application\Login.hmi\Definition.hmipagedef.locres">
+         <Id>b54a9085-c9bb-48be-9951-c48cd21349f5</Id>
+         <Visible>False</Visible>
+         <ParentIndex>2</ParentIndex>
+      </LocalResources>
    </ItemGroup>
    <ItemGroup>
       <CodeWorksheet Include="Logical Elements\Main.pou\Code.ld">
@@ -533,5 +553,50 @@
          <Type>.ld</Type>
          <ParentIndex>8</ParentIndex>
       </CodeWorksheet>
+   </ItemGroup>
+   <ItemGroup>
+      <HmiPage Include="Hardware\CFG_5168E02A2B0348C4B4D848A3BA195E9D\HMI_Server\Application\Home.hmi">
+         <Id>62fe5747-c517-417b-ae46-52d08c468816</Id>
+         <DisplayName>Home</DisplayName>
+         <StartPage>True</StartPage>
+         <ParentIndex>4</ParentIndex>
+      </HmiPage>
+      <HmiPage Include="Hardware\CFG_5168E02A2B0348C4B4D848A3BA195E9D\HMI_Server\Application\Login.hmi">
+         <Id>fa0c1473-84d3-4030-a001-77ca38513db9</Id>
+         <DisplayName>Login</DisplayName>
+         <StartPage>False</StartPage>
+         <ParentIndex>5</ParentIndex>
+      </HmiPage>
+   </ItemGroup>
+   <ItemGroup>
+      <HmiPageDefinition Include="Hardware\CFG_5168E02A2B0348C4B4D848A3BA195E9D\HMI_Server\Application\Home.hmi\Definition.hmipagedef">
+         <Id>b379231f-caf8-445e-897d-db0c03e9e66c</Id>
+         <ParentIndex>0</ParentIndex>
+      </HmiPageDefinition>
+      <HmiPageDefinition Include="Hardware\CFG_5168E02A2B0348C4B4D848A3BA195E9D\HMI_Server\Application\Login.hmi\Definition.hmipagedef">
+         <Id>af097761-b0f1-4349-9996-5bae849ac3b8</Id>
+         <ParentIndex>0</ParentIndex>
+      </HmiPageDefinition>
+   </ItemGroup>
+   <ItemGroup>
+      <HmiParameters Include="Hardware\CFG_5168E02A2B0348C4B4D848A3BA195E9D\HMI_Server\Application\Home.hmi\Parameters.hmiparams">
+         <Id>72c94866-ea8d-4d91-9fb4-50abe621daf9</Id>
+         <DisplayName>Parameters</DisplayName>
+         <Extension>.hmiparams</Extension>
+         <ParentIndex>1</ParentIndex>
+      </HmiParameters>
+      <HmiParameters Include="Hardware\CFG_5168E02A2B0348C4B4D848A3BA195E9D\HMI_Server\Application\Login.hmi\Parameters.hmiparams">
+         <Id>30548a7f-d91c-4c43-981c-0b99d6f24c66</Id>
+         <DisplayName>Parameters</DisplayName>
+         <Extension>.hmiparams</Extension>
+         <ParentIndex>1</ParentIndex>
+      </HmiParameters>
+   </ItemGroup>
+   <ItemGroup>
+      <HmiConfig Include="Hardware\CFG_5168E02A2B0348C4B4D848A3BA195E9D\HMI_Server\HmiConfiguration.xml">
+         <Id>52e09f21-dc4a-459a-ab4c-5d1736b9fa11</Id>
+         <DisplayName>HMI Configuration</DisplayName>
+         <ParentIndex>3</ParentIndex>
+      </HmiConfig>
    </ItemGroup>
 </Project>

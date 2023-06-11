@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ResourcesDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <NextResourceID>149</NextResourceID>
+  <Languages ID="0" Name="Default" />
+  <Resources ID="100" Name="Text1.Text">
+    <Values LanguageID="0" LocalValue="Generic Variables" />
+  </Resources>
+  <Resources ID="101" Name="Text2.Text">
+    <Values LanguageID="0" LocalValue="Variable name" />
+  </Resources>
+  <Resources ID="102" Name="Text3.Text">
+    <Values LanguageID="0" LocalValue="Data Type" />
+  </Resources>
+  <Resources ID="103" Name="Text4.Text">
+    <Values LanguageID="0" LocalValue="Value (R/W field)" />
+  </Resources>
+  <Resources ID="104" Name="Text5.Text">
+    <Values LanguageID="0" LocalValue="xBool1" />
+  </Resources>
+  <Resources ID="105" Name="Text6.Text">
+    <Values LanguageID="0" LocalValue="BOOL" />
+  </Resources>
+  <Resources ID="106" Name="TextInput1.Text">
+    <Values LanguageID="0" LocalValue="Text Input" />
+  </Resources>
+  <Resources ID="107" Name="Text7.Text">
+    <Values LanguageID="0" LocalValue="xBool2" />
+  </Resources>
+  <Resources ID="108" Name="Text8.Text">
+    <Values LanguageID="0" LocalValue="BOOL" />
+  </Resources>
+  <Resources ID="109" Name="TextInput2.Text">
+    <Values LanguageID="0" LocalValue="Text Input" />
+  </Resources>
+  <Resources ID="110" Name="Text9.Text">
+    <Values LanguageID="0" LocalValue="xBool3" />
+  </Resources>
+  <Resources ID="111" Name="Text10.Text">
+    <Values LanguageID="0" LocalValue="BOOL" />
+  </Resources>
+  <Resources ID="112" Name="TextInput3.Text">
+    <Values LanguageID="0" LocalValue="Text Input" />
+  </Resources>
+  <Resources ID="113" Name="Text11.Text">
+    <Values LanguageID="0" LocalValue="xBool4" />
+  </Resources>
+  <Resources ID="114" Name="Text12.Text">
+    <Values LanguageID="0" LocalValue="BOOL" />
+  </Resources>
+  <Resources ID="115" Name="TextInput4.Text">
+    <Values LanguageID="0" LocalValue="Text Input" />
+  </Resources>
+  <Resources ID="125" Name="Text13.Text">
+    <Values LanguageID="0" LocalValue="iInt1" />
+  </Resources>
+  <Resources ID="126" Name="Text14.Text">
+    <Values LanguageID="0" LocalValue="iInt2" />
+  </Resources>
+  <Resources ID="127" Name="Text15.Text">
+    <Values LanguageID="0" LocalValue="iInt3" />
+  </Resources>
+  <Resources ID="128" Name="Text16.Text">
+    <Values LanguageID="0" LocalValue="iInt4" />
+  </Resources>
+  <Resources ID="129" Name="Text17.Text">
+    <Values LanguageID="0" LocalValue="BOOL" />
+  </Resources>
+  <Resources ID="130" Name="Text18.Text">
+    <Values LanguageID="0" LocalValue="BOOL" />
+  </Resources>
+  <Resources ID="131" Name="Text19.Text">
+    <Values LanguageID="0" LocalValue="BOOL" />
+  </Resources>
+  <Resources ID="132" Name="Text20.Text">
+    <Values LanguageID="0" LocalValue="BOOL" />
+  </Resources>
+  <Resources ID="133" Name="TextInput5.Text">
+    <Values LanguageID="0" LocalValue="Text Input" />
+  </Resources>
+  <Resources ID="134" Name="TextInput6.Text">
+    <Values LanguageID="0" LocalValue="Text Input" />
+  </Resources>
+  <Resources ID="135" Name="TextInput7.Text">
+    <Values LanguageID="0" LocalValue="Text Input" />
+  </Resources>
+  <Resources ID="136" Name="TextInput8.Text">
+    <Values LanguageID="0" LocalValue="Text Input" />
+  </Resources>
+  <Resources ID="137" Name="Text21.Text">
+    <Values LanguageID="0" LocalValue="rReal1" />
+  </Resources>
+  <Resources ID="138" Name="Text22.Text">
+    <Values LanguageID="0" LocalValue="rReal2" />
+  </Resources>
+  <Resources ID="139" Name="Text23.Text">
+    <Values LanguageID="0" LocalValue="rReal3" />
+  </Resources>
+  <Resources ID="140" Name="Text24.Text">
+    <Values LanguageID="0" LocalValue="rReal4" />
+  </Resources>
+  <Resources ID="141" Name="Text25.Text">
+    <Values LanguageID="0" LocalValue="BOOL" />
+  </Resources>
+  <Resources ID="142" Name="Text26.Text">
+    <Values LanguageID="0" LocalValue="BOOL" />
+  </Resources>
+  <Resources ID="143" Name="Text27.Text">
+    <Values LanguageID="0" LocalValue="BOOL" />
+  </Resources>
+  <Resources ID="144" Name="Text28.Text">
+    <Values LanguageID="0" LocalValue="BOOL" />
+  </Resources>
+  <Resources ID="145" Name="TextInput9.Text">
+    <Values LanguageID="0" LocalValue="Text Input" />
+  </Resources>
+  <Resources ID="146" Name="TextInput10.Text">
+    <Values LanguageID="0" LocalValue="Text Input" />
+  </Resources>
+  <Resources ID="147" Name="TextInput11.Text">
+    <Values LanguageID="0" LocalValue="Text Input" />
+  </Resources>
+  <Resources ID="148" Name="TextInput12.Text">
+    <Values LanguageID="0" LocalValue="Text Input" />
+  </Resources>
+</ResourcesDocument>

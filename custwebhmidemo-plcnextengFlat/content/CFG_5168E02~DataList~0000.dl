@@ -1744,7 +1744,765 @@
         <Constraint TypeName="Ade.DataList.Constraints.Unconnectable, Ade.DataListImpl" Parameters="ProcessDatum" />
       </Role>
     </Datum>
+    <Datum Uuid="d57f543e-82f3-4e46-8bb9-97b689e89f75">
+      <FunctionText />
+      <Role TypeName="InPort" ObjectId="76b7bd99-65aa-4fd1-8df3-92f33ae86c46" SourceId="e73130a1-e30e-4c90-8621-7b9a7ee81976.L7_2">
+        <Name>xBool1</Name>
+        <DataType>BOOL</DataType>
+        <PortDataTypeDomain>Iec</PortDataTypeDomain>
+        <PortDataType>BOOL</PortDataType>
+        <PortMultiplicity>1</PortMultiplicity>
+        <Index />
+        <IsRetain>False</IsRetain>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <IsRedundant>False</IsRedundant>
+        <ComponentInstance>Arp.Plc.Eclr</ComponentInstance>
+        <ProgramInstance />
+        <Program>Arp.Plc.Eclr / </Program>
+      </Role>
+    </Datum>
+    <Datum Uuid="6bf65b60-d513-4a8b-9f3d-99aaec691927">
+      <FunctionText />
+      <Role TypeName="OutPort" ObjectId="76b7bd99-65aa-4fd1-8df3-92f33ae86c46" SourceId="e73130a1-e30e-4c90-8621-7b9a7ee81976.L7_2">
+        <Name>xBool1</Name>
+        <DataType>BOOL</DataType>
+        <PortDataTypeDomain>Iec</PortDataTypeDomain>
+        <PortDataType>BOOL</PortDataType>
+        <PortMultiplicity>1</PortMultiplicity>
+        <Index />
+        <IsRetain>False</IsRetain>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <IsRedundant>False</IsRedundant>
+        <ComponentInstance>Arp.Plc.Eclr</ComponentInstance>
+        <ProgramInstance />
+        <Program>Arp.Plc.Eclr / </Program>
+      </Role>
+    </Datum>
+    <Datum Uuid="b3a0c90d-0571-4e6b-9cc5-539bf5ca7764">
+      <FunctionText />
+      <Role TypeName="Variable" ObjectId="76b7bd99-65aa-4fd1-8df3-92f33ae86c46" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/bc69eba4-974f-4169-8bb1-0e56e196f9c0">
+        <Name>xBool1</Name>
+        <Usage>Global</Usage>
+        <DataType>BOOL</DataType>
+        <Address />
+        <InitValue>FALSE</InitValue>
+        <IsRetain>False</IsRetain>
+        <IsConstant>False</IsConstant>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <IsRedundant>False</IsRedundant>
+        <Comment />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Name,Usage,DataType,InitValue,IsRetain,Comment,IsOpc,IsConstant,IsHmi,IsProficloud,IsRedundant" />
+      </Role>
+      <Role TypeName="HmiTag" ObjectId="2c08f37a-b558-49ec-864b-39b5dbae904d" SourceId="">
+        <IsReadOnly>False</IsReadOnly>
+        <Name>xBool1</Name>
+        <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Name,IsReadOnly" />
+      </Role>
+    </Datum>
+    <Datum Uuid="7ecb859e-f892-4838-959a-38cd782f35dc">
+      <FunctionText />
+      <Role TypeName="InPort" ObjectId="d67d5b02-c7b2-4b3d-8e6c-8258ed4dfe66" SourceId="e73130a1-e30e-4c90-8621-7b9a7ee81976.L7_2">
+        <Name>xBool2</Name>
+        <DataType>BOOL</DataType>
+        <PortDataTypeDomain>Iec</PortDataTypeDomain>
+        <PortDataType>BOOL</PortDataType>
+        <PortMultiplicity>1</PortMultiplicity>
+        <Index />
+        <IsRetain>False</IsRetain>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <IsRedundant>False</IsRedundant>
+        <ComponentInstance>Arp.Plc.Eclr</ComponentInstance>
+        <ProgramInstance />
+        <Program>Arp.Plc.Eclr / </Program>
+      </Role>
+    </Datum>
+    <Datum Uuid="3af8fcdd-f055-4a71-bebc-a5a7f1deacf1">
+      <FunctionText />
+      <Role TypeName="OutPort" ObjectId="d67d5b02-c7b2-4b3d-8e6c-8258ed4dfe66" SourceId="e73130a1-e30e-4c90-8621-7b9a7ee81976.L7_2">
+        <Name>xBool2</Name>
+        <DataType>BOOL</DataType>
+        <PortDataTypeDomain>Iec</PortDataTypeDomain>
+        <PortDataType>BOOL</PortDataType>
+        <PortMultiplicity>1</PortMultiplicity>
+        <Index />
+        <IsRetain>False</IsRetain>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <IsRedundant>False</IsRedundant>
+        <ComponentInstance>Arp.Plc.Eclr</ComponentInstance>
+        <ProgramInstance />
+        <Program>Arp.Plc.Eclr / </Program>
+      </Role>
+    </Datum>
+    <Datum Uuid="50c7034b-cfe4-4290-9858-922bee5eefd7">
+      <FunctionText />
+      <Role TypeName="Variable" ObjectId="d67d5b02-c7b2-4b3d-8e6c-8258ed4dfe66" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/bc69eba4-974f-4169-8bb1-0e56e196f9c0">
+        <Name>xBool2</Name>
+        <Usage>Global</Usage>
+        <DataType>BOOL</DataType>
+        <Address />
+        <InitValue>FALSE</InitValue>
+        <IsRetain>False</IsRetain>
+        <IsConstant>False</IsConstant>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <IsRedundant>False</IsRedundant>
+        <Comment />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Name,Usage,DataType,InitValue,IsRetain,Comment,IsOpc,IsConstant,IsHmi,IsProficloud,IsRedundant" />
+      </Role>
+      <Role TypeName="HmiTag" ObjectId="8af5bc09-c701-4eb0-a2e7-ec94263c94a8" SourceId="">
+        <IsReadOnly>False</IsReadOnly>
+        <Name>xBool2</Name>
+        <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Name,IsReadOnly" />
+      </Role>
+    </Datum>
+    <Datum Uuid="c1d629b6-46af-4a0c-a42c-c653a89bd753">
+      <FunctionText />
+      <Role TypeName="InPort" ObjectId="ab667d76-26b6-462c-9566-60f17bbc08f7" SourceId="e73130a1-e30e-4c90-8621-7b9a7ee81976.L7_2">
+        <Name>xBool3</Name>
+        <DataType>BOOL</DataType>
+        <PortDataTypeDomain>Iec</PortDataTypeDomain>
+        <PortDataType>BOOL</PortDataType>
+        <PortMultiplicity>1</PortMultiplicity>
+        <Index />
+        <IsRetain>False</IsRetain>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <IsRedundant>False</IsRedundant>
+        <ComponentInstance>Arp.Plc.Eclr</ComponentInstance>
+        <ProgramInstance />
+        <Program>Arp.Plc.Eclr / </Program>
+      </Role>
+    </Datum>
+    <Datum Uuid="32e6b931-ff02-4a25-aa22-86b8fe48c0f8">
+      <FunctionText />
+      <Role TypeName="OutPort" ObjectId="ab667d76-26b6-462c-9566-60f17bbc08f7" SourceId="e73130a1-e30e-4c90-8621-7b9a7ee81976.L7_2">
+        <Name>xBool3</Name>
+        <DataType>BOOL</DataType>
+        <PortDataTypeDomain>Iec</PortDataTypeDomain>
+        <PortDataType>BOOL</PortDataType>
+        <PortMultiplicity>1</PortMultiplicity>
+        <Index />
+        <IsRetain>False</IsRetain>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <IsRedundant>False</IsRedundant>
+        <ComponentInstance>Arp.Plc.Eclr</ComponentInstance>
+        <ProgramInstance />
+        <Program>Arp.Plc.Eclr / </Program>
+      </Role>
+    </Datum>
+    <Datum Uuid="d071df9f-20cc-4084-883c-be0dcc3f9cf1">
+      <FunctionText />
+      <Role TypeName="Variable" ObjectId="ab667d76-26b6-462c-9566-60f17bbc08f7" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/bc69eba4-974f-4169-8bb1-0e56e196f9c0">
+        <Name>xBool3</Name>
+        <Usage>Global</Usage>
+        <DataType>BOOL</DataType>
+        <Address />
+        <InitValue>FALSE</InitValue>
+        <IsRetain>False</IsRetain>
+        <IsConstant>False</IsConstant>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <IsRedundant>False</IsRedundant>
+        <Comment />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Name,Usage,DataType,InitValue,IsRetain,Comment,IsOpc,IsConstant,IsHmi,IsProficloud,IsRedundant" />
+      </Role>
+      <Role TypeName="HmiTag" ObjectId="2899405c-e723-40f9-a6cf-952bcbcae802" SourceId="">
+        <IsReadOnly>False</IsReadOnly>
+        <Name>xBool3</Name>
+        <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Name,IsReadOnly" />
+      </Role>
+    </Datum>
+    <Datum Uuid="4439ac11-445d-4ffe-ba35-7a106f83c1d0">
+      <FunctionText />
+      <Role TypeName="InPort" ObjectId="1bdb8249-e225-4ba0-9a5b-b5dfb75ff72a" SourceId="e73130a1-e30e-4c90-8621-7b9a7ee81976.L7_2">
+        <Name>xBool4</Name>
+        <DataType>BOOL</DataType>
+        <PortDataTypeDomain>Iec</PortDataTypeDomain>
+        <PortDataType>BOOL</PortDataType>
+        <PortMultiplicity>1</PortMultiplicity>
+        <Index />
+        <IsRetain>False</IsRetain>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <IsRedundant>False</IsRedundant>
+        <ComponentInstance>Arp.Plc.Eclr</ComponentInstance>
+        <ProgramInstance />
+        <Program>Arp.Plc.Eclr / </Program>
+      </Role>
+    </Datum>
+    <Datum Uuid="d34dda16-72c3-4e7f-9849-2f3a4a88fe70">
+      <FunctionText />
+      <Role TypeName="OutPort" ObjectId="1bdb8249-e225-4ba0-9a5b-b5dfb75ff72a" SourceId="e73130a1-e30e-4c90-8621-7b9a7ee81976.L7_2">
+        <Name>xBool4</Name>
+        <DataType>BOOL</DataType>
+        <PortDataTypeDomain>Iec</PortDataTypeDomain>
+        <PortDataType>BOOL</PortDataType>
+        <PortMultiplicity>1</PortMultiplicity>
+        <Index />
+        <IsRetain>False</IsRetain>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <IsRedundant>False</IsRedundant>
+        <ComponentInstance>Arp.Plc.Eclr</ComponentInstance>
+        <ProgramInstance />
+        <Program>Arp.Plc.Eclr / </Program>
+      </Role>
+    </Datum>
+    <Datum Uuid="a85c5288-a023-4929-9877-f6334ba8f2e7">
+      <FunctionText />
+      <Role TypeName="Variable" ObjectId="1bdb8249-e225-4ba0-9a5b-b5dfb75ff72a" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/bc69eba4-974f-4169-8bb1-0e56e196f9c0">
+        <Name>xBool4</Name>
+        <Usage>Global</Usage>
+        <DataType>BOOL</DataType>
+        <Address />
+        <InitValue>FALSE</InitValue>
+        <IsRetain>False</IsRetain>
+        <IsConstant>False</IsConstant>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <IsRedundant>False</IsRedundant>
+        <Comment />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Name,Usage,DataType,InitValue,IsRetain,Comment,IsOpc,IsConstant,IsHmi,IsProficloud,IsRedundant" />
+      </Role>
+      <Role TypeName="HmiTag" ObjectId="62e2d40b-13f1-4d73-a830-7236e36c5ebc" SourceId="">
+        <IsReadOnly>False</IsReadOnly>
+        <Name>xBool4</Name>
+        <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Name,IsReadOnly" />
+      </Role>
+    </Datum>
+    <Datum Uuid="937aaac7-717b-4dc6-9178-bc93a6dee602">
+      <FunctionText />
+      <Role TypeName="InPort" ObjectId="03b30e4d-841f-4cb7-ac02-bfbf9d442040" SourceId="e73130a1-e30e-4c90-8621-7b9a7ee81976.L7_2">
+        <Name>iInt1</Name>
+        <DataType>INT</DataType>
+        <PortDataTypeDomain>Iec</PortDataTypeDomain>
+        <PortDataType>INT</PortDataType>
+        <PortMultiplicity>1</PortMultiplicity>
+        <Index />
+        <IsRetain>False</IsRetain>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <IsRedundant>False</IsRedundant>
+        <ComponentInstance>Arp.Plc.Eclr</ComponentInstance>
+        <ProgramInstance />
+        <Program>Arp.Plc.Eclr / </Program>
+      </Role>
+    </Datum>
+    <Datum Uuid="3a4907e6-a1ac-4838-ab2c-045c349d532b">
+      <FunctionText />
+      <Role TypeName="OutPort" ObjectId="03b30e4d-841f-4cb7-ac02-bfbf9d442040" SourceId="e73130a1-e30e-4c90-8621-7b9a7ee81976.L7_2">
+        <Name>iInt1</Name>
+        <DataType>INT</DataType>
+        <PortDataTypeDomain>Iec</PortDataTypeDomain>
+        <PortDataType>INT</PortDataType>
+        <PortMultiplicity>1</PortMultiplicity>
+        <Index />
+        <IsRetain>False</IsRetain>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <IsRedundant>False</IsRedundant>
+        <ComponentInstance>Arp.Plc.Eclr</ComponentInstance>
+        <ProgramInstance />
+        <Program>Arp.Plc.Eclr / </Program>
+      </Role>
+    </Datum>
+    <Datum Uuid="cef55db1-6c78-4c4e-91a3-907d9174a324">
+      <FunctionText />
+      <Role TypeName="Variable" ObjectId="03b30e4d-841f-4cb7-ac02-bfbf9d442040" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/bc69eba4-974f-4169-8bb1-0e56e196f9c0">
+        <Name>iInt1</Name>
+        <Usage>Global</Usage>
+        <DataType>INT</DataType>
+        <Address />
+        <InitValue>INT#0</InitValue>
+        <IsRetain>False</IsRetain>
+        <IsConstant>False</IsConstant>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <IsRedundant>False</IsRedundant>
+        <Comment />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Name,Usage,DataType,InitValue,IsRetain,Comment,IsOpc,IsConstant,IsHmi,IsProficloud,IsRedundant" />
+      </Role>
+      <Role TypeName="HmiTag" ObjectId="18b23926-be61-4544-8e71-f0b5be49564e" SourceId="">
+        <IsReadOnly>False</IsReadOnly>
+        <Name>iInt1</Name>
+        <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Name,IsReadOnly" />
+      </Role>
+    </Datum>
+    <Datum Uuid="b0731768-c8be-472b-b78e-83bebfb1f256">
+      <FunctionText />
+      <Role TypeName="InPort" ObjectId="9add50ea-fc3d-4454-99df-00b79a02b7c2" SourceId="e73130a1-e30e-4c90-8621-7b9a7ee81976.L7_2">
+        <Name>iInt2</Name>
+        <DataType>INT</DataType>
+        <PortDataTypeDomain>Iec</PortDataTypeDomain>
+        <PortDataType>INT</PortDataType>
+        <PortMultiplicity>1</PortMultiplicity>
+        <Index />
+        <IsRetain>False</IsRetain>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <IsRedundant>False</IsRedundant>
+        <ComponentInstance>Arp.Plc.Eclr</ComponentInstance>
+        <ProgramInstance />
+        <Program>Arp.Plc.Eclr / </Program>
+      </Role>
+    </Datum>
+    <Datum Uuid="865a44c6-dc03-427a-8bdc-c5f0f6171af5">
+      <FunctionText />
+      <Role TypeName="OutPort" ObjectId="9add50ea-fc3d-4454-99df-00b79a02b7c2" SourceId="e73130a1-e30e-4c90-8621-7b9a7ee81976.L7_2">
+        <Name>iInt2</Name>
+        <DataType>INT</DataType>
+        <PortDataTypeDomain>Iec</PortDataTypeDomain>
+        <PortDataType>INT</PortDataType>
+        <PortMultiplicity>1</PortMultiplicity>
+        <Index />
+        <IsRetain>False</IsRetain>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <IsRedundant>False</IsRedundant>
+        <ComponentInstance>Arp.Plc.Eclr</ComponentInstance>
+        <ProgramInstance />
+        <Program>Arp.Plc.Eclr / </Program>
+      </Role>
+    </Datum>
+    <Datum Uuid="a88c5021-f66c-4a00-877b-09efb7504da0">
+      <FunctionText />
+      <Role TypeName="Variable" ObjectId="9add50ea-fc3d-4454-99df-00b79a02b7c2" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/bc69eba4-974f-4169-8bb1-0e56e196f9c0">
+        <Name>iInt2</Name>
+        <Usage>Global</Usage>
+        <DataType>INT</DataType>
+        <Address />
+        <InitValue>INT#0</InitValue>
+        <IsRetain>False</IsRetain>
+        <IsConstant>False</IsConstant>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <IsRedundant>False</IsRedundant>
+        <Comment />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Name,Usage,DataType,InitValue,IsRetain,Comment,IsOpc,IsConstant,IsHmi,IsProficloud,IsRedundant" />
+      </Role>
+      <Role TypeName="HmiTag" ObjectId="18a7963a-6680-4150-9211-82ef4c76fe57" SourceId="">
+        <IsReadOnly>False</IsReadOnly>
+        <Name>iInt2</Name>
+        <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Name,IsReadOnly" />
+      </Role>
+    </Datum>
+    <Datum Uuid="9d5411c9-452e-45a6-b851-8d282b71935b">
+      <FunctionText />
+      <Role TypeName="InPort" ObjectId="8fb818bd-be97-4490-9eb5-bce8a4417fe9" SourceId="e73130a1-e30e-4c90-8621-7b9a7ee81976.L7_2">
+        <Name>iInt3</Name>
+        <DataType>INT</DataType>
+        <PortDataTypeDomain>Iec</PortDataTypeDomain>
+        <PortDataType>INT</PortDataType>
+        <PortMultiplicity>1</PortMultiplicity>
+        <Index />
+        <IsRetain>False</IsRetain>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <IsRedundant>False</IsRedundant>
+        <ComponentInstance>Arp.Plc.Eclr</ComponentInstance>
+        <ProgramInstance />
+        <Program>Arp.Plc.Eclr / </Program>
+      </Role>
+    </Datum>
+    <Datum Uuid="10d350c7-e34c-4982-a2e9-219ee0d8f295">
+      <FunctionText />
+      <Role TypeName="OutPort" ObjectId="8fb818bd-be97-4490-9eb5-bce8a4417fe9" SourceId="e73130a1-e30e-4c90-8621-7b9a7ee81976.L7_2">
+        <Name>iInt3</Name>
+        <DataType>INT</DataType>
+        <PortDataTypeDomain>Iec</PortDataTypeDomain>
+        <PortDataType>INT</PortDataType>
+        <PortMultiplicity>1</PortMultiplicity>
+        <Index />
+        <IsRetain>False</IsRetain>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <IsRedundant>False</IsRedundant>
+        <ComponentInstance>Arp.Plc.Eclr</ComponentInstance>
+        <ProgramInstance />
+        <Program>Arp.Plc.Eclr / </Program>
+      </Role>
+    </Datum>
+    <Datum Uuid="825699ef-85cf-4f84-8d26-8b12296be97a">
+      <FunctionText />
+      <Role TypeName="Variable" ObjectId="8fb818bd-be97-4490-9eb5-bce8a4417fe9" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/bc69eba4-974f-4169-8bb1-0e56e196f9c0">
+        <Name>iInt3</Name>
+        <Usage>Global</Usage>
+        <DataType>INT</DataType>
+        <Address />
+        <InitValue>INT#0</InitValue>
+        <IsRetain>False</IsRetain>
+        <IsConstant>False</IsConstant>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <IsRedundant>False</IsRedundant>
+        <Comment />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Name,Usage,DataType,InitValue,IsRetain,Comment,IsOpc,IsConstant,IsHmi,IsProficloud,IsRedundant" />
+      </Role>
+      <Role TypeName="HmiTag" ObjectId="64c0d351-57f2-4067-ab15-94e080cfe1c9" SourceId="">
+        <IsReadOnly>False</IsReadOnly>
+        <Name>iInt3</Name>
+        <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Name,IsReadOnly" />
+      </Role>
+    </Datum>
+    <Datum Uuid="29a7e70f-610f-4281-9b51-92d85f15b06a">
+      <FunctionText />
+      <Role TypeName="InPort" ObjectId="cb72f7a5-7cbf-4770-a2cd-2c876f9a68b6" SourceId="e73130a1-e30e-4c90-8621-7b9a7ee81976.L7_2">
+        <Name>iInt4</Name>
+        <DataType>INT</DataType>
+        <PortDataTypeDomain>Iec</PortDataTypeDomain>
+        <PortDataType>INT</PortDataType>
+        <PortMultiplicity>1</PortMultiplicity>
+        <Index />
+        <IsRetain>False</IsRetain>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <IsRedundant>False</IsRedundant>
+        <ComponentInstance>Arp.Plc.Eclr</ComponentInstance>
+        <ProgramInstance />
+        <Program>Arp.Plc.Eclr / </Program>
+      </Role>
+    </Datum>
+    <Datum Uuid="00deabd7-3ac0-461c-a04f-caa0c7358624">
+      <FunctionText />
+      <Role TypeName="OutPort" ObjectId="cb72f7a5-7cbf-4770-a2cd-2c876f9a68b6" SourceId="e73130a1-e30e-4c90-8621-7b9a7ee81976.L7_2">
+        <Name>iInt4</Name>
+        <DataType>INT</DataType>
+        <PortDataTypeDomain>Iec</PortDataTypeDomain>
+        <PortDataType>INT</PortDataType>
+        <PortMultiplicity>1</PortMultiplicity>
+        <Index />
+        <IsRetain>False</IsRetain>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <IsRedundant>False</IsRedundant>
+        <ComponentInstance>Arp.Plc.Eclr</ComponentInstance>
+        <ProgramInstance />
+        <Program>Arp.Plc.Eclr / </Program>
+      </Role>
+    </Datum>
+    <Datum Uuid="c6ca084c-80df-4cdd-ab67-8dcf83be95fb">
+      <FunctionText />
+      <Role TypeName="Variable" ObjectId="cb72f7a5-7cbf-4770-a2cd-2c876f9a68b6" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/bc69eba4-974f-4169-8bb1-0e56e196f9c0">
+        <Name>iInt4</Name>
+        <Usage>Global</Usage>
+        <DataType>INT</DataType>
+        <Address />
+        <InitValue>INT#0</InitValue>
+        <IsRetain>False</IsRetain>
+        <IsConstant>False</IsConstant>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <IsRedundant>False</IsRedundant>
+        <Comment />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Name,Usage,DataType,InitValue,IsRetain,Comment,IsOpc,IsConstant,IsHmi,IsProficloud,IsRedundant" />
+      </Role>
+      <Role TypeName="HmiTag" ObjectId="8b44d500-f36e-4b28-9ecc-4a32a4377334" SourceId="">
+        <IsReadOnly>False</IsReadOnly>
+        <Name>iInt4</Name>
+        <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Name,IsReadOnly" />
+      </Role>
+    </Datum>
+    <Datum Uuid="c999c4ff-7515-45b6-9c18-6d28be5dd275">
+      <FunctionText />
+      <Role TypeName="InPort" ObjectId="b9e96986-e4db-40d6-8d65-8f14489c32a1" SourceId="e73130a1-e30e-4c90-8621-7b9a7ee81976.L7_2">
+        <Name>rReal1</Name>
+        <DataType>REAL</DataType>
+        <PortDataTypeDomain>Iec</PortDataTypeDomain>
+        <PortDataType>REAL</PortDataType>
+        <PortMultiplicity>1</PortMultiplicity>
+        <Index />
+        <IsRetain>False</IsRetain>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <IsRedundant>False</IsRedundant>
+        <ComponentInstance>Arp.Plc.Eclr</ComponentInstance>
+        <ProgramInstance />
+        <Program>Arp.Plc.Eclr / </Program>
+      </Role>
+    </Datum>
+    <Datum Uuid="80729543-277f-4030-84f3-53a6a204e057">
+      <FunctionText />
+      <Role TypeName="OutPort" ObjectId="b9e96986-e4db-40d6-8d65-8f14489c32a1" SourceId="e73130a1-e30e-4c90-8621-7b9a7ee81976.L7_2">
+        <Name>rReal1</Name>
+        <DataType>REAL</DataType>
+        <PortDataTypeDomain>Iec</PortDataTypeDomain>
+        <PortDataType>REAL</PortDataType>
+        <PortMultiplicity>1</PortMultiplicity>
+        <Index />
+        <IsRetain>False</IsRetain>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <IsRedundant>False</IsRedundant>
+        <ComponentInstance>Arp.Plc.Eclr</ComponentInstance>
+        <ProgramInstance />
+        <Program>Arp.Plc.Eclr / </Program>
+      </Role>
+    </Datum>
+    <Datum Uuid="94b548f2-3c29-4fa6-821e-02bcc849bc1d">
+      <FunctionText />
+      <Role TypeName="Variable" ObjectId="b9e96986-e4db-40d6-8d65-8f14489c32a1" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/bc69eba4-974f-4169-8bb1-0e56e196f9c0">
+        <Name>rReal1</Name>
+        <Usage>Global</Usage>
+        <DataType>REAL</DataType>
+        <Address />
+        <InitValue>REAL#0.0</InitValue>
+        <IsRetain>False</IsRetain>
+        <IsConstant>False</IsConstant>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <IsRedundant>False</IsRedundant>
+        <Comment />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Name,Usage,DataType,InitValue,IsRetain,Comment,IsOpc,IsConstant,IsHmi,IsProficloud,IsRedundant" />
+      </Role>
+      <Role TypeName="HmiTag" ObjectId="bf6c3699-52a3-4f99-8288-124545af06ed" SourceId="">
+        <IsReadOnly>False</IsReadOnly>
+        <Name>rReal1</Name>
+        <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Name,IsReadOnly" />
+      </Role>
+    </Datum>
+    <Datum Uuid="9e2767ea-94e2-4fba-9e76-a9dac8358700">
+      <FunctionText />
+      <Role TypeName="InPort" ObjectId="8561e684-cf93-40fd-9a85-3babc0a25238" SourceId="e73130a1-e30e-4c90-8621-7b9a7ee81976.L7_2">
+        <Name>rReal2</Name>
+        <DataType>REAL</DataType>
+        <PortDataTypeDomain>Iec</PortDataTypeDomain>
+        <PortDataType>REAL</PortDataType>
+        <PortMultiplicity>1</PortMultiplicity>
+        <Index />
+        <IsRetain>False</IsRetain>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <IsRedundant>False</IsRedundant>
+        <ComponentInstance>Arp.Plc.Eclr</ComponentInstance>
+        <ProgramInstance />
+        <Program>Arp.Plc.Eclr / </Program>
+      </Role>
+    </Datum>
+    <Datum Uuid="03fc86e3-746e-4194-9e97-5cd8d9707edb">
+      <FunctionText />
+      <Role TypeName="OutPort" ObjectId="8561e684-cf93-40fd-9a85-3babc0a25238" SourceId="e73130a1-e30e-4c90-8621-7b9a7ee81976.L7_2">
+        <Name>rReal2</Name>
+        <DataType>REAL</DataType>
+        <PortDataTypeDomain>Iec</PortDataTypeDomain>
+        <PortDataType>REAL</PortDataType>
+        <PortMultiplicity>1</PortMultiplicity>
+        <Index />
+        <IsRetain>False</IsRetain>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <IsRedundant>False</IsRedundant>
+        <ComponentInstance>Arp.Plc.Eclr</ComponentInstance>
+        <ProgramInstance />
+        <Program>Arp.Plc.Eclr / </Program>
+      </Role>
+    </Datum>
+    <Datum Uuid="3c79c4d0-4661-4368-a7b1-05cfa61506b6">
+      <FunctionText />
+      <Role TypeName="Variable" ObjectId="8561e684-cf93-40fd-9a85-3babc0a25238" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/bc69eba4-974f-4169-8bb1-0e56e196f9c0">
+        <Name>rReal2</Name>
+        <Usage>Global</Usage>
+        <DataType>REAL</DataType>
+        <Address />
+        <InitValue>REAL#0.0</InitValue>
+        <IsRetain>False</IsRetain>
+        <IsConstant>False</IsConstant>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <IsRedundant>False</IsRedundant>
+        <Comment />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Name,Usage,DataType,InitValue,IsRetain,Comment,IsOpc,IsConstant,IsHmi,IsProficloud,IsRedundant" />
+      </Role>
+      <Role TypeName="HmiTag" ObjectId="52a2fb43-79af-41a5-96a0-8c8068c31dbc" SourceId="">
+        <IsReadOnly>False</IsReadOnly>
+        <Name>rReal2</Name>
+        <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Name,IsReadOnly" />
+      </Role>
+    </Datum>
+    <Datum Uuid="c908b2c9-035c-4c1c-8ba3-17a719d80e02">
+      <FunctionText />
+      <Role TypeName="InPort" ObjectId="7c32cd8c-0c24-4602-80b8-d52cb3e5d0a6" SourceId="e73130a1-e30e-4c90-8621-7b9a7ee81976.L7_2">
+        <Name>rReal3</Name>
+        <DataType>REAL</DataType>
+        <PortDataTypeDomain>Iec</PortDataTypeDomain>
+        <PortDataType>REAL</PortDataType>
+        <PortMultiplicity>1</PortMultiplicity>
+        <Index />
+        <IsRetain>False</IsRetain>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <IsRedundant>False</IsRedundant>
+        <ComponentInstance>Arp.Plc.Eclr</ComponentInstance>
+        <ProgramInstance />
+        <Program>Arp.Plc.Eclr / </Program>
+      </Role>
+    </Datum>
+    <Datum Uuid="79269238-0654-42e9-a4ce-25a1688028b0">
+      <FunctionText />
+      <Role TypeName="OutPort" ObjectId="7c32cd8c-0c24-4602-80b8-d52cb3e5d0a6" SourceId="e73130a1-e30e-4c90-8621-7b9a7ee81976.L7_2">
+        <Name>rReal3</Name>
+        <DataType>REAL</DataType>
+        <PortDataTypeDomain>Iec</PortDataTypeDomain>
+        <PortDataType>REAL</PortDataType>
+        <PortMultiplicity>1</PortMultiplicity>
+        <Index />
+        <IsRetain>False</IsRetain>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <IsRedundant>False</IsRedundant>
+        <ComponentInstance>Arp.Plc.Eclr</ComponentInstance>
+        <ProgramInstance />
+        <Program>Arp.Plc.Eclr / </Program>
+      </Role>
+    </Datum>
+    <Datum Uuid="8ebae60e-09be-405c-b73d-641785d56604">
+      <FunctionText />
+      <Role TypeName="Variable" ObjectId="7c32cd8c-0c24-4602-80b8-d52cb3e5d0a6" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/bc69eba4-974f-4169-8bb1-0e56e196f9c0">
+        <Name>rReal3</Name>
+        <Usage>Global</Usage>
+        <DataType>REAL</DataType>
+        <Address />
+        <InitValue>REAL#0.0</InitValue>
+        <IsRetain>False</IsRetain>
+        <IsConstant>False</IsConstant>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <IsRedundant>False</IsRedundant>
+        <Comment />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Name,Usage,DataType,InitValue,IsRetain,Comment,IsOpc,IsConstant,IsHmi,IsProficloud,IsRedundant" />
+      </Role>
+      <Role TypeName="HmiTag" ObjectId="5e2df5fd-f6cf-434b-84c2-8b3e14d827a1" SourceId="">
+        <IsReadOnly>False</IsReadOnly>
+        <Name>rReal3</Name>
+        <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Name,IsReadOnly" />
+      </Role>
+    </Datum>
+    <Datum Uuid="c8827cb3-47cd-40ad-aa96-b888ec0fbd75">
+      <FunctionText />
+      <Role TypeName="InPort" ObjectId="46e6d4bb-4e27-40a8-b5a1-53db7146999d" SourceId="e73130a1-e30e-4c90-8621-7b9a7ee81976.L7_2">
+        <Name>rReal4</Name>
+        <DataType>REAL</DataType>
+        <PortDataTypeDomain>Iec</PortDataTypeDomain>
+        <PortDataType>REAL</PortDataType>
+        <PortMultiplicity>1</PortMultiplicity>
+        <Index />
+        <IsRetain>False</IsRetain>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <IsRedundant>False</IsRedundant>
+        <ComponentInstance>Arp.Plc.Eclr</ComponentInstance>
+        <ProgramInstance />
+        <Program>Arp.Plc.Eclr / </Program>
+      </Role>
+    </Datum>
+    <Datum Uuid="136695ca-27a1-408a-8490-e0f4813ccfae">
+      <FunctionText />
+      <Role TypeName="OutPort" ObjectId="46e6d4bb-4e27-40a8-b5a1-53db7146999d" SourceId="e73130a1-e30e-4c90-8621-7b9a7ee81976.L7_2">
+        <Name>rReal4</Name>
+        <DataType>REAL</DataType>
+        <PortDataTypeDomain>Iec</PortDataTypeDomain>
+        <PortDataType>REAL</PortDataType>
+        <PortMultiplicity>1</PortMultiplicity>
+        <Index />
+        <IsRetain>False</IsRetain>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <IsRedundant>False</IsRedundant>
+        <ComponentInstance>Arp.Plc.Eclr</ComponentInstance>
+        <ProgramInstance />
+        <Program>Arp.Plc.Eclr / </Program>
+      </Role>
+    </Datum>
+    <Datum Uuid="6047c2d7-745a-46aa-8d16-bdeba09481a3">
+      <FunctionText />
+      <Role TypeName="Variable" ObjectId="46e6d4bb-4e27-40a8-b5a1-53db7146999d" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/bc69eba4-974f-4169-8bb1-0e56e196f9c0">
+        <Name>rReal4</Name>
+        <Usage>Global</Usage>
+        <DataType>REAL</DataType>
+        <Address />
+        <InitValue>REAL#0.0</InitValue>
+        <IsRetain>False</IsRetain>
+        <IsConstant>False</IsConstant>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <IsRedundant>False</IsRedundant>
+        <Comment />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Name,Usage,DataType,InitValue,IsRetain,Comment,IsOpc,IsConstant,IsHmi,IsProficloud,IsRedundant" />
+      </Role>
+      <Role TypeName="HmiTag" ObjectId="c3a56d2d-6529-4907-9f85-5ce1935c8e16" SourceId="">
+        <IsReadOnly>False</IsReadOnly>
+        <Name>rReal4</Name>
+        <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Name,IsReadOnly" />
+      </Role>
+    </Datum>
     <RoleGroupList RoleTypeName="Variable">
+      <RoleGroup SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/bc69eba4-974f-4169-8bb1-0e56e196f9c0" ObjectId="f50155b7-bb57-445d-885b-cae067c79904" DisplayName="Generic example variables" IsReadOnly="False">
+        <RoleDatumUuid>b3a0c90d-0571-4e6b-9cc5-539bf5ca7764</RoleDatumUuid>
+        <RoleDatumUuid>50c7034b-cfe4-4290-9858-922bee5eefd7</RoleDatumUuid>
+        <RoleDatumUuid>d071df9f-20cc-4084-883c-be0dcc3f9cf1</RoleDatumUuid>
+        <RoleDatumUuid>a85c5288-a023-4929-9877-f6334ba8f2e7</RoleDatumUuid>
+        <RoleDatumUuid>cef55db1-6c78-4c4e-91a3-907d9174a324</RoleDatumUuid>
+        <RoleDatumUuid>a88c5021-f66c-4a00-877b-09efb7504da0</RoleDatumUuid>
+        <RoleDatumUuid>825699ef-85cf-4f84-8d26-8b12296be97a</RoleDatumUuid>
+        <RoleDatumUuid>c6ca084c-80df-4cdd-ab67-8dcf83be95fb</RoleDatumUuid>
+        <RoleDatumUuid>94b548f2-3c29-4fa6-821e-02bcc849bc1d</RoleDatumUuid>
+        <RoleDatumUuid>3c79c4d0-4661-4368-a7b1-05cfa61506b6</RoleDatumUuid>
+        <RoleDatumUuid>8ebae60e-09be-405c-b73d-641785d56604</RoleDatumUuid>
+        <RoleDatumUuid>6047c2d7-745a-46aa-8d16-bdeba09481a3</RoleDatumUuid>
+      </RoleGroup>
       <RoleGroup SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/bc69eba4-974f-4169-8bb1-0e56e196f9c0" ObjectId="fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24" DisplayName="Default" IsReadOnly="False" />
       <RoleGroup SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/bc69eba4-974f-4169-8bb1-0e56e196f9c0" ObjectId="971398c9-e054-4349-a1d9-e00a1840c9f4" DisplayName="System Variables" IsReadOnly="True">
         <RoleDatumUuid>f2c82f5f-832b-4394-a33a-22e408d08583</RoleDatumUuid>

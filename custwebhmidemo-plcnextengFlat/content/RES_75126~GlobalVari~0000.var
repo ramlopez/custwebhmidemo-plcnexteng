@@ -1,5 +1,6 @@
 { CustomGroupDefinition('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24', 'Default') }
 { CustomGroupDefinition('971398c9-e054-4349-a1d9-e00a1840c9f4', 'System Variables') }
+{ CustomGroupDefinition('f50155b7-bb57-445d-885b-cae067c79904', 'Generic example variables') }
 
 VAR_GLOBAL
     PND_S1_PLC_RUN : BOOL { SystemVariable, CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4') } {Id('5f5454c1-fb33-4e4e-b2e6-d26efad3f3c6')}; (*Higher level PLC in RUN*)
@@ -65,4 +66,16 @@ VAR_GLOBAL
     EIPD_OUTPUTS_LENGTH : WORD { SystemVariable, CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4') } {Id('8f3c7e51-e304-48b9-953b-78ec11d90263')};
     EIPD_INPUTS_LENGTH : WORD { SystemVariable, CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4') } {Id('f112f86c-2f8a-4a6e-8978-eec2af01e7a3')};
     PLC_CRC_PRJ AT %ML1.10000 : ULINT { SystemVariable, CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4') } {Id('11180b42-9c69-4343-94f9-5e82d6650291')};
+    xBool1 : BOOL { CustomGroupReference('f50155b7-bb57-445d-885b-cae067c79904') } {Id('76b7bd99-65aa-4fd1-8df3-92f33ae86c46')};
+    xBool2 : BOOL { CustomGroupReference('f50155b7-bb57-445d-885b-cae067c79904') } {Id('d67d5b02-c7b2-4b3d-8e6c-8258ed4dfe66')};
+    xBool3 : BOOL { CustomGroupReference('f50155b7-bb57-445d-885b-cae067c79904') } {Id('ab667d76-26b6-462c-9566-60f17bbc08f7')};
+    xBool4 : BOOL { CustomGroupReference('f50155b7-bb57-445d-885b-cae067c79904') } {Id('1bdb8249-e225-4ba0-9a5b-b5dfb75ff72a')};
+    iInt1 : INT { CustomGroupReference('f50155b7-bb57-445d-885b-cae067c79904') } {Id('03b30e4d-841f-4cb7-ac02-bfbf9d442040')};
+    iInt2 : INT { CustomGroupReference('f50155b7-bb57-445d-885b-cae067c79904') } {Id('9add50ea-fc3d-4454-99df-00b79a02b7c2')};
+    iInt3 : INT { CustomGroupReference('f50155b7-bb57-445d-885b-cae067c79904') } {Id('8fb818bd-be97-4490-9eb5-bce8a4417fe9')};
+    iInt4 : INT { CustomGroupReference('f50155b7-bb57-445d-885b-cae067c79904') } {Id('cb72f7a5-7cbf-4770-a2cd-2c876f9a68b6')};
+    rReal1 : REAL { CustomGroupReference('f50155b7-bb57-445d-885b-cae067c79904') } {Id('b9e96986-e4db-40d6-8d65-8f14489c32a1')};
+    rReal2 : REAL { CustomGroupReference('f50155b7-bb57-445d-885b-cae067c79904') } {Id('8561e684-cf93-40fd-9a85-3babc0a25238')};
+    rReal3 : REAL { CustomGroupReference('f50155b7-bb57-445d-885b-cae067c79904') } {Id('7c32cd8c-0c24-4602-80b8-d52cb3e5d0a6')};
+    rReal4 : REAL { CustomGroupReference('f50155b7-bb57-445d-885b-cae067c79904') } {Id('46e6d4bb-4e27-40a8-b5a1-53db7146999d')};
 END_VAR

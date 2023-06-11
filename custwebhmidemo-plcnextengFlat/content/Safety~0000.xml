@@ -9,5 +9,12 @@
       <file name="SafetyInventory.xml" id="Inventori~SafetyInve~0000.xml" />
     </folder>
     <folder name="Logical Elements" />
+    <folder name="Hardware">
+      <folder name="CFG_5168E02A2B0348C4B4D848A3BA195E9D">
+        <folder name="HMI_Server">
+          <folder name="Application" />
+        </folder>
+      </folder>
+    </folder>
   </folder>
 </content>
